@@ -13,10 +13,12 @@ edtFrame.pack()
 
 lstFrame = Frame(root)
 lstFrame.pack(side=BOTTOM, fill=BOTH, expand=1)
+
 edt1 = Entry(edtFrame, width=10)
 edt2 = Entry(edtFrame, width=10)
 edt3 = Entry(edtFrame, width=10)
 edt4 = Entry(edtFrame, width=10)
+
 edt1.pack(side=LEFT, padx=10, pady=10)
 edt2.pack(side=LEFT, padx=10, pady=10)
 edt3.pack(side=LEFT, padx=10, pady=10)
